@@ -9,8 +9,7 @@
 
 1. Clone the repo and run `npm install`
 2. Add a valid `BROWSERSTACK_USERNAME` and `BROWSERSTACK_AUTH_KEY` to your environment variables to enable that integration.
-3. Update the 'baseUrl' property in `wdio.conf.js`
-4. Update the spec files and page objects in the test folder
+
 
 ## Usage
 
@@ -30,10 +29,6 @@ You can also lint your code with `npm run lint`.
 
 
 ## More Details
-
-### Examples
-
-Example details to follow.
 
 ### Folder Structure
 
