@@ -7,6 +7,7 @@ Given('I open the home page', function() {
 
 Given(/^I search for (.*)/, function(searchName) {
   browser.setValue("#orb-search-q", searchName);
+  browser.click(".se-searchbox__submit");
 })
 
 When('I choose Eastenders from the search options', function() {
@@ -14,6 +15,12 @@ When('I choose Eastenders from the search options', function() {
   browser.waitForExist('#suggestion-0', 1000);
   browser.click('#suggestion-0');
 })
+
+
+Given(/^I do a partial search for (.*)/, function(searchName) {
+  browser.setValue("#orb-search-q", searchName);
+})
+
 
 When('I choose the Eastenders home page', function() {
   browser.click('#search-result-0~ div a');
