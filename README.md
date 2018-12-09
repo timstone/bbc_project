@@ -13,13 +13,12 @@
 
 ## Usage
 
-By default, the kit is set up to run tests using the `npm test` command.
+By default, it is set up to run tests using the `npm test` command.
 
 You can also lint your code with `npm run lint`.
 
-## This template includes:
+## This project includes:
 
-- [Examples, with Page Objects](#examples)
 - [Chai with `expect` global](http://chaijs.com/guide/styles/#expect)
 - [Chai WebdriverIO](https://github.com/marcodejongh/chai-webdriverio)
 - [Browserstack integration](http://webdriver.io/guide/services/browserstack.html)
